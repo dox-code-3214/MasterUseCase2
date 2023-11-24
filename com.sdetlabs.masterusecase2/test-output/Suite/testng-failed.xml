@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test">
+        <methods>
+          <include name="DeleteRequestTest"/>
+          <include name="PostRequestTest"/>
+          <include name="PatchRequestTest"/>
+          <include name="GetRequestTest"/>
+          <include name="beforeTest"/>
+          <include name="PutRequestTest"/>
+        </methods>
+      </class> <!-- com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test -->
+      <class name="com.sdetlabs.masterusecase2.mcu2.SoapWS_Test">
+        <methods>
+          <include name="GetRequestTest"/>
+          <include name="PostRequestTest"/>
+        </methods>
+      </class> <!-- com.sdetlabs.masterusecase2.mcu2.SoapWS_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

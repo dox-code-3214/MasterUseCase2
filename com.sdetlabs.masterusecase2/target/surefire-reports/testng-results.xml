@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="9218" started-at="2023-11-24T05:37:04Z" finished-at="2023-11-24T05:37:13Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="9218" started-at="2023-11-24T05:37:04Z" finished-at="2023-11-24T05:37:13Z">
+      <class name="com.sdetlabs.masterusecase2.mcu2.SoapWS_Test">
+        <test-method status="PASS" signature="GetRequestTest()[pri:0, instance:com.sdetlabs.masterusecase2.mcu2.SoapWS_Test@73f792cf]" name="GetRequestTest" duration-ms="1624" started-at="2023-11-24T05:37:11Z" finished-at="2023-11-24T05:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRequestTest -->
+        <test-method status="PASS" signature="PostRequestTest()[pri:0, instance:com.sdetlabs.masterusecase2.mcu2.SoapWS_Test@73f792cf]" name="PostRequestTest" duration-ms="956" started-at="2023-11-24T05:37:12Z" finished-at="2023-11-24T05:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostRequestTest -->
+      </class> <!-- com.sdetlabs.masterusecase2.mcu2.SoapWS_Test -->
+      <class name="com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test@79698539]" name="beforeTest" is-config="true" duration-ms="447" started-at="2023-11-24T05:37:04Z" finished-at="2023-11-24T05:37:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="DeleteRequestTest()[pri:0, instance:com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test@79698539]" name="DeleteRequestTest" duration-ms="1973" started-at="2023-11-24T05:37:05Z" finished-at="2023-11-24T05:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteRequestTest -->
+        <test-method status="PASS" signature="GetRequestTest()[pri:0, instance:com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test@79698539]" name="GetRequestTest" duration-ms="912" started-at="2023-11-24T05:37:06Z" finished-at="2023-11-24T05:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRequestTest -->
+        <test-method status="PASS" signature="PatchRequestTest()[pri:0, instance:com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test@79698539]" name="PatchRequestTest" duration-ms="1152" started-at="2023-11-24T05:37:07Z" finished-at="2023-11-24T05:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchRequestTest -->
+        <test-method status="PASS" signature="PostRequestTest()[pri:0, instance:com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test@79698539]" name="PostRequestTest" duration-ms="994" started-at="2023-11-24T05:37:09Z" finished-at="2023-11-24T05:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostRequestTest -->
+        <test-method status="PASS" signature="PutRequestTest()[pri:0, instance:com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test@79698539]" name="PutRequestTest" duration-ms="1142" started-at="2023-11-24T05:37:10Z" finished-at="2023-11-24T05:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutRequestTest -->
+      </class> <!-- com.sdetlabs.masterusecase2.mcu2.RestfulWS_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
